@@ -1,0 +1,48 @@
+data:
+  csv_raw: '../Data/raw/Airlines.csv'
+  csv_cleaned: '../Data/clean/cleaned_airlines.csv'
+
+testsplit:
+  random_state: 2
+  test_size: 0.3
+
+scaler:
+  standard: '../Scalers/StandardScaler.pkl'
+
+encoder:
+  onehot: '../Encoders/OneHotEncoder.pkl'
+
+pca:
+  pca: '../PCA/pca.pkl'
+
+models:
+  logistic_regression:
+    maxiter: 300
+    solver: 'saga'
+    path: '../Models/LogisticRegression.pkl'
+  knn:
+    n_neighbors: 3
+    weights: 'distance'
+    path: '../Models/KNeighborsClassifier.pkl'
+  random_forest:
+    grid_search:
+      n_estimators : [150, 300]
+      max_depth : [7,10]
+      criterion :  ['gini', 'entropy']
+      min_samples_split : [2,4]
+      min_samples_leaf : [2]
+      max_features : ['sqrt', 0.7]
+    criterion: 'gini',
+    max_depth: 10,
+    max_features: 0.7,
+    min_samples_leaf: 2,
+    min_samples_split: 2,
+    n_estimators: 150
+    path: '../Models/GridSearchRandomForest.pkl'
+  gradient_boosting:
+    n_estimators: 300
+    max_depth: 5
+    max_features: 0.7
+    min_samples_leaf: 2
+    min_samples_split: 2
+    path: '../Models/GradientBoost.pkl'
