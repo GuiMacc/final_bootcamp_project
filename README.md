@@ -7,7 +7,7 @@ There's also a chance that you might have needed to get another form of public t
 Therefore it would be interesting to be able to predict wether a given flight is delayed or not.  
 It would be even better if we could then give for how long that delay would be, but with the dataset provided that wasn't possible.
 Perhaps on a future project.  
-For information regarding the dataset, [click here](#Data-Info)
+For information regarding the dataset, [click here](#Data-Info).
 
 ## Sources
 
@@ -24,7 +24,7 @@ Let's imagine we work for the Department of Transportation (DOT) and they'd like
   5- Do the airports (origin and destination) affect the amount of flights and percentage of delays?  
 
 There is a notebook file exploring the amount of flights part of the buisness questions
-<a href='https://github.com/lukwies/mid-bootcamp-project/blob/main/notebooks/hypothesis_test.ipynb'>
+<a href='https://github.com/GuiMacc/final_bootcamp_project/blob/main/Notebooks/eda.ipynb'>
 here</a> with the plots stored
 <a href='https://github.com/GuiMacc/final_bootcamp_project/tree/main/Plots/EDA'> 
 here</a>.
