@@ -64,7 +64,7 @@ cleaned data</a> which containes the information above.
 
 As a final note I want to say this project was made as the final bootcamp project at Ironhack for the Data Analytics course
 for which there was a presentation made in tableu which can be found
-<a href='https://public.tableau.com/app/profile/guilherme.macedo/viz/f_proj/Dashboard2'>
+<a href='https://public.tableau.com/app/profile/guilherme.macedo/viz/f_proj/FlightDelays'>
 here </a>.
 
 
